@@ -1,0 +1,60 @@
+<odoo>
+  <data>
+    <!-- explicit list view definition -->
+    <!--
+    <record model="ir.ui.view" id="encuentronatural.list">
+      <field name="name">encuentronatural list</field>
+      <field name="model">encuentronatural.encuentronatural</field>
+      <field name="arch" type="xml">
+        <tree>
+          <field name="name"/>
+          <field name="value"/>
+          <field name="value2"/>
+        </tree>
+      </field>
+    </record>
+    -->
+
+    <!-- actions opening views on models -->
+    <!--
+    <record model="ir.actions.act_window" id="encuentronatural.action_window">
+      <field name="name">encuentronatural window</field>
+      <field name="res_model">encuentronatural.encuentronatural</field>
+      <field name="view_mode">tree,form</field>
+    </record>
+    -->
+
+    <!-- server action to the one above -->
+    <!--
+    <record model="ir.actions.server" id="encuentronatural.action_server">
+      <field name="name">encuentronatural server</field>
+      <field name="model_id" ref="model_encuentronatural_encuentronatural"/>
+      <field name="state">code</field>
+      <field name="code">
+        action = {
+          "type": "ir.actions.act_window",
+          "view_mode": "tree,form",
+          "res_model": self._name,
+        }
+      </field>
+    </record>
+    -->
+
+    <!-- Top menu item -->
+    <!--
+    <menuitem name="encuentronatural" id="encuentronatural.menu_root"/>
+    -->
+    <!-- menu categories -->
+    <!--
+    <menuitem name="Menu 1" id="encuentronatural.menu_1" parent="encuentronatural.menu_root"/>
+    <menuitem name="Menu 2" id="encuentronatural.menu_2" parent="encuentronatural.menu_root"/>
+    -->
+    <!-- actions -->
+    <!--
+    <menuitem name="List" id="encuentronatural.menu_1_list" parent="encuentronatural.menu_1"
+              action="encuentronatural.action_window"/>
+    <menuitem name="Server to list" id="encuentronatural" parent="encuentronatural.menu_2"
+              action="encuentronatural.action_server"/>
+    -->
+  </data>
+</odoo>
