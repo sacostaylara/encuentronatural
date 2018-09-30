@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+
+        <report
+            id="report_lot_label_with_description"
+            string="Lots Labels"
+            model="stock.production.lot"
+            report_type="qweb-pdf"
+            name="encuentronatural.report_lotlabel"
+            file="encuentronatural.report_lotlabel"
+            print_report_name="'Lots Labels - %s' % (object.name)"
+        />
+
+    </data>
+</odoo>

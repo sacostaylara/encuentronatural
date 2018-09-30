@@ -18,6 +18,8 @@
         # 'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
+        'reports/lot_reports.xml',
+        'reports/lot_templates.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
