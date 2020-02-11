@@ -28,7 +28,7 @@
                             <strong t-field="lot.product_id.company_id.currency_id.symbol"/>
                             <strong t-field="lot.product_id.list_price"/>
                         </h4>
-                        <strong>Lote: </strong> <span t-field="lot.name"/>
+                        <strong>Lote: </strong> <span t-field="lot.name"/><br/>
                         <strong>Vencimiento: </strong> <span t-field="lot.removal_date"  t-field-options="{&quot;format&quot;: &quot;dd/MM/yyyy&quot;}"/>
                     </td>
                 </tr>
